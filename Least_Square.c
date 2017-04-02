@@ -67,13 +67,13 @@ void Linear(float X[9], float Y[9])
 	float xy_sum = product_sum(X,1,Y);
 	float a,b,y;
 	
-	
+	/*
 	printf("\nx_sum  = %f",x_sum);
 	
 	printf("\nx_2_sum  = %f",x_2_sum);
 	printf("\ny_sum  = %f",y_sum);
 	printf("\nxy_sum  = %f",xy_sum);	
-	
+	*/
 
 	a = ((9*xy_sum) - (x_sum*y_sum))/((9*x_2_sum) - (x_sum*x_sum));
 	b = ((y_sum*x_2_sum) - (x_sum*xy_sum))/((9*x_2_sum) - (x_sum*x_sum));
